@@ -17,9 +17,27 @@ header > img {
 nav {
     display: inline-block;
     float: right;
+    margin-top: 9px;
 }
 a {
     display: inline-block;
+    color: #9E9E9E;
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 18px;
+}
+a:nth-of-type(5) {
+    border: 3px solid #9E9E9E;
+    margin-top: -3px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    border-radius: 17px;
+
+
 }
 main {
     display: inline-block;
